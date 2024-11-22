@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="icon" href="/Portfolio/Assets/portfolio.png">
+    <link rel="stylesheet" href="/Portfolio/Assets/styles.css">
+    <!-- For Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+<body>
+    
+    <div class="hero-header">
+        <div class="wrapper">
+            <header>
+                <div class="logo">
+                    <i class="fa-solid fa-n"></i>
+                    <div class="logo-text">Nuwagaba Declan Junior</div>      
+                </div>
+                <nav>
+                    <ul class="navlinks">
+                        <li> <a href="#">Home</a></li>
+                        <li> <a href="#services">Services</a></li>
+                        <li> <a href="/Portfolio/Pages/projects.html" target="_blank">Projects</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="container" id="Home">
+                <div class="pic">
+                    <img src="/Portfolio/Assets/portfolio.jpeg" alt="Background Picture">
+                </div>
+                <div class="hero-text">
+                    <h5>Hi I'm a <span class="input"></span>😊</h5>
+                    <p>I am an aspiring Software Engineer who's passionate about utilising the power of technology to solve real
+                        world problems. I am an enthusiastic and efficient leaner who thrives simultaneously in a team. I am also
+                        experienced in various programming languages including <span>Python, Java, HTML, C#.</span> 
+                        </p>
+
+                        <div class="btn-group">
+                            <a href="/Portfolio/Assets/Declan's CV.pdf" target="_blank" class="btn active">View CV</a>
+                            <a href="mailto:declannuwagaba02@gmail.com" target="_blank" class="btn"> Contact Me</a>
+                        </div>
+
+                        <div class="social">
+                            <a href="https://github.com/Declanjr"  target="_blank" class="fa-brands fa-github"></a>
+                            <a href="https://www.linkedin.com/in/declan-nuwagaba-6561412b8?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" class="fa-brands fa-linkedin"></a>
+                        </div>
+
+                        
+                </div>
+            </div>
+
+            <section class="services" id="services">
+
+                <h2>Services</h2> <br>
+
+                <div class="container">
+                    <div class="services">
+                        <div class="service-card">
+                            <div class="icon-circle">
+                                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#666" stroke-width="2">
+                                    <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                                    <line x1="8" y1="21" x2="16" y2="21"></line>
+                                    <line x1="12" y1="17" x2="12" y2="21"></line>
+                                </svg>
+                            </div>
+                            <h3>UI/UX Design</h3>
+                            <p>Designing interfaces that are effective and easy to use by users and customers</p>
+                        </div>
+            
+                        <div class="service-card">
+                            <div class="icon-circle">
+                                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#666" stroke-width="2">
+                                    <path d="M12 19l7-7 3 3-7 7-3-3z"></path>
+                                    <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path>
+                                    <path d="M2 2l7.586 7.586"></path>
+                                </svg>
+                            </div>
+                            <h3>Back-End Services</h3>
+                            <p>I am one Email away if my DB services are required</p>
+                        </div>
+            
+                        <div class="service-card">
+                            <div class="icon-circle">
+                                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#666" stroke-width="2">
+                                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                                    <circle cx="9" cy="7" r="4"></circle>
+                                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                                    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                                </svg>
+                            </div>
+                            <h3>Data Analytics</h3>
+                            <p>If your willing to let me see your data. I will find the problem</p>
+                        </div>
+                    </div>
+                </div>
+                    
+            </section>
+
+            <footer class="footer">
+                    <p>© 2024  Thanks For Viewing My Portfolio . All rights reserved.</p>
+              </footer>
+              
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+
+    <script>
+
+        var typed = new Typed(".input",{
+            strings:["Front-End Developer", "Full Stack Developer","Web Developer"],
+            typedSpeed:70,
+            backSpeed:55,
+            loop: true
+        })
+    </script>
+
+
+</body>
+</html>
